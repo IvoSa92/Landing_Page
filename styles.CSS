@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* Navbar styling*/
+body{
+    font-family: roboto, sans-serif;
+}
+.section-1{
+    background-color: #1f2937;
+    
+}
+
+/* Navbar styling ---------------*/
+
 .navbar{
     background-color:#1f2937 ;
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    
 }
 
 ul{
@@ -25,7 +36,46 @@ ul{
 .Header-Logo{
     color: #f9faf8;
     font-size: 25px;
-    font-weight: bold;
     margin: 0;
 
 }
+
+/*rest from section-1 styling----------------*/
+
+.website-header{
+    display: flex ;
+}
+
+.header-left{
+display: flex;
+flex-direction: column;
+padding: 50px;
+margin-left: 100px;
+}
+
+.header{
+    color: #f9faf8;
+    font-size: 48px bolder;
+}
+.sub-header{
+    color: #e5e7eb;
+    font-size: 18px;
+    
+
+}
+
+.sign-up-1{
+    background-color: #3882f6;
+    width:80px ;
+    color: #e5e7eb;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.header-right{
+    display: flex;
+    padding: 50px;
+    width: 50%;
+
+}
+
