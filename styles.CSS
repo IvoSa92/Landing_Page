@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: roboto, sans-serif;
 }
@@ -218,5 +222,20 @@ h4, .p4{
     font-weight: bold;
     margin-right: 50px;
     
-    
 }
+
+/*-------Footer-------*/
+
+.footer{
+    background-color: #1f2937;
+    padding: 18px;
+}
+
+.p-footer{
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
