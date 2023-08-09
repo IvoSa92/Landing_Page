@@ -3,12 +3,13 @@
 body{
     font-family: roboto, sans-serif;
 }
+
+/*--------section-1----------*/
+
 .section-1{
     background-color: #1f2937;
     
 }
-
-/* Navbar styling ---------------*/
 
 .navbar{
     background-color:#1f2937 ;
@@ -17,6 +18,11 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     
+}
+
+a{
+  text-decoration: none;  
+  color: #e5e7eb;
 }
 
 ul{
@@ -30,7 +36,14 @@ ul{
     padding: 10px;
     color: #f9faf8;
     font-weight: 48px ;
+    margin-top: 10px;
+    margin-left: 5px;
     
+}
+
+.navbar-right{
+    margin-top: 10px;
+    margin-right: 5px;
 }
 
 .Header-Logo{
@@ -39,8 +52,6 @@ ul{
     margin: 0;
 
 }
-
-/*rest from section-1 styling----------------*/
 
 .website-header{
     display: flex ;
@@ -77,10 +88,11 @@ margin-left: 100px;
     display: flex;
     padding: 50px;
     width: 50%;
+    
 
 }
 
-/*section-2--------------*/
+/*----------section-2--------------*/
 
 h2{
     font-size: 36px ;
@@ -96,6 +108,8 @@ h2{
 .box-img{
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 100px;
 
 }
 
@@ -106,7 +120,7 @@ width: 150px;
 
 }
 
-/*section-3-------------*/
+/*----------section-3-------------*/
 
 .section-3{
     background-color:#e5e7eb ;
@@ -125,14 +139,11 @@ width: 150px;
     display: flex;
     justify-content: center;
   
-    
 }
 
 .thor{
     font-weight: bolder;
     font-size: larger;
-    
-    
     
 }
 
@@ -141,22 +152,71 @@ width: 150px;
     justify-content:right;
     margin-right: 250px ;
    
-    
-    
-    
-    
 }
 
 .text{
     display: flex;
     flex-direction: column;
     padding: 50px;
+ 
+}
 
-    
-    
-   
-    
-   
+/*-------------section-4----------------*/
 
-   
+.section-4{
+    background-color: #f9faf8;
+    padding: 80px 50px 80px 50px ;
+}
+
+
+.blue-field{
+    background-color:#3882f6 ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-side{
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    padding: 50px;
+}
+
+h4, .p4{
+    padding: 0;
+    margin: 0;
+}
+
+.left-side>h4{
+    font-size: 20px;
+    font-style: bold;
+}
+
+.left-side>p{
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-2{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #e5e7eb;
+    border-style:solid;
+    color: #e5e7eb;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    margin-right: 50px;
+    
+    
 }
